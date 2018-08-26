@@ -1,0 +1,54 @@
+---- HAL_KEY_SW_1 Matches (53 in 25 files) ----
+coordinator.c (Projects\zstack\Samples\GenericApp\Source) line 502 :  *                 HAL_KEY_SW_1
+GenericApp_HandleKeys in coordinator.c (Projects\zstack\Samples\GenericApp\Source) :     if ( keys & HAL_KEY_SW_1 )
+GenericApp_HandleKeys in coordinator.c (Projects\zstack\Samples\GenericApp\Source) :     if ( keys & HAL_KEY_SW_1 )
+enddevice.c (Projects\zstack\Samples\GenericApp\Source) line 548 :  *                 HAL_KEY_SW_1
+GenericApp_HandleKeys in enddevice.c (Projects\zstack\Samples\GenericApp\Source) :     if ( keys & HAL_KEY_SW_1 )
+GenericApp_HandleKeys in enddevice.c (Projects\zstack\Samples\GenericApp\Source) :     if ( keys & HAL_KEY_SW_1 )
+esp.c (Projects\zstack\SE\SampleApp\Source\ESP) line 750 :  *                 HAL_KEY_SW_1
+esp_HandleKeys in esp.c (Projects\zstack\SE\SampleApp\Source\ESP) :     if ( keys & HAL_KEY_SW_1 )
+esp_HandleKeys in esp.c (Projects\zstack\SE\SampleApp\Source\ESP) :     if ( keys & HAL_KEY_SW_1 )
+HalKeyRead in hal_key.c (Components\hal\target\CC2530USB) :     keys |= HAL_KEY_SW_1;
+HAL_ISR_FUNCTION in hal_key.c (Components\hal\target\CC2530USB) :     isrKeys |= HAL_KEY_SW_1;
+hal_key.h (Components\hal\include) line 70 : #define HAL_KEY_SW_1 0x01  // Joystick up
+ipd.c (Projects\zstack\SE\SampleApp\Source\IPD) line 709 :  *                 HAL_KEY_SW_1
+ipd_HandleKeys in ipd.c (Projects\zstack\SE\SampleApp\Source\IPD) :     if ( keys & HAL_KEY_SW_1 )
+ipd_HandleKeys in ipd.c (Projects\zstack\SE\SampleApp\Source\IPD) :     if ( keys & HAL_KEY_SW_1 )
+ipd.c (Projects\zstack\SE\SampleApp\Source\IPD_OTA) line 916 :  *                 HAL_KEY_SW_1
+ipd_HandleKeys in ipd.c (Projects\zstack\SE\SampleApp\Source\IPD_OTA) :     if ( keys & HAL_KEY_SW_1 )
+ipd_HandleKeys in ipd.c (Projects\zstack\SE\SampleApp\Source\IPD_OTA) :     if ( keys & HAL_KEY_SW_1 )
+loadcontrol.c (Projects\zstack\SE\SampleApp\Source\LoadControl) line 609 :  *                 HAL_KEY_SW_1
+loadcontrol_HandleKeys in loadcontrol.c (Projects\zstack\SE\SampleApp\Source\LoadControl) :     if ( keys & HAL_KEY_SW_1 )
+loadcontrol_HandleKeys in loadcontrol.c (Projects\zstack\SE\SampleApp\Source\LoadControl) :     if ( keys & HAL_KEY_SW_1 )
+MT_UtilKeyEvent in MT_UTIL.c (Components\mt) :     x |= HAL_KEY_SW_1;
+zlHandleKeys in oad_app.c (Projects\zstack\Utilities\OAD\Source) :     if ( keys & HAL_KEY_SW_1 )
+zlHandleKeys in oad_app.c (Projects\zstack\Utilities\OAD\Source) :     if ( keys & HAL_KEY_SW_1 )
+OnBoard_KeyCallback in OnBoard.c (Projects\zstack\ZMain\TI2530DB) :     if ( keys & HAL_KEY_SW_1 )  // Switch 1
+OnBoard_KeyCallback in OnBoard.c (Projects\zstack\ZMain\TI2530ZNP) :     if ( keys & HAL_KEY_SW_1 )  // Switch 1
+OnBoard.h (Projects\zstack\ZMain\TI2530DB) line 141 : #define SW_BYPASS_START HAL_KEY_SW_1  // Bypass Network initialization
+OnBoard.h (Projects\zstack\ZMain\TI2530ZNP) line 147 : #define SW_BYPASS_START HAL_KEY_SW_1  // Bypass Network initialization
+OTA_Dongle.c (Projects\zstack\OTA\Dongle\Source) line 708 :  *                 HAL_KEY_SW_1
+OTA_Dongle_HandleKeys in OTA_Dongle.c (Projects\zstack\OTA\Dongle\Source) :   if ( keys & HAL_KEY_SW_1 )
+pct.c (Projects\zstack\SE\SampleApp\Source\PCT) line 626 :  *                 HAL_KEY_SW_1
+pct_HandleKeys in pct.c (Projects\zstack\SE\SampleApp\Source\PCT) :     if ( keys & HAL_KEY_SW_1 )
+pct_HandleKeys in pct.c (Projects\zstack\SE\SampleApp\Source\PCT) :     if ( keys & HAL_KEY_SW_1 )
+rangeext.c (Projects\zstack\SE\SampleApp\Source\RangeExt) line 440 :  *                 HAL_KEY_SW_1
+rangeext_HandleKeys in rangeext.c (Projects\zstack\SE\SampleApp\Source\RangeExt) :     if ( keys & HAL_KEY_SW_1 )
+rangeext_HandleKeys in rangeext.c (Projects\zstack\SE\SampleApp\Source\RangeExt) :     if ( keys & HAL_KEY_SW_1 )
+router.c (Projects\zstack\Samples\GenericApp\Source) line 409 :  *                 HAL_KEY_SW_1
+GenericApp_HandleKeys in router.c (Projects\zstack\Samples\GenericApp\Source) :     if ( keys & HAL_KEY_SW_1 )
+GenericApp_HandleKeys in router.c (Projects\zstack\Samples\GenericApp\Source) :     if ( keys & HAL_KEY_SW_1 )
+SerialApp_HandleKeys in SerialApp.c (Projects\zstack\Utilities\SerialApp\Source) :     if ( keys & HAL_KEY_SW_1 )
+SerialApp_HandleKeys in SerialApp.c (Projects\zstack\Utilities\SerialApp\Source) :     if ( keys & HAL_KEY_SW_1 )
+simplemeter.c (Projects\zstack\SE\SampleApp\Source\SimpleMeter) line 745 :  *                 HAL_KEY_SW_1
+simplemeter_HandleKeys in simplemeter.c (Projects\zstack\SE\SampleApp\Source\SimpleMeter) :     if ( keys & HAL_KEY_SW_1 )
+simplemeter_HandleKeys in simplemeter.c (Projects\zstack\SE\SampleApp\Source\SimpleMeter) :     if ( keys & HAL_KEY_SW_1 )
+TransmitApp_HandleKeys in TransmitApp.c (Projects\zstack\Utilities\Transmit\Source) :     if ( keys & HAL_KEY_SW_1 )
+TransmitApp_HandleKeys in TransmitApp.c (Projects\zstack\Utilities\Transmit\Source) :     if ( keys & HAL_KEY_SW_1 )
+zcl_ccserver.c (Projects\zstack\ZBA\CCServer\Source) line 393 :  *                 HAL_KEY_SW_1
+zclCCServer_HandleKeys in zcl_ccserver.c (Projects\zstack\ZBA\CCServer\Source) :   if ( keys & HAL_KEY_SW_1 )
+zcl_samplelight.c (Projects\zstack\HomeAutomation\SampleLight\Source) line 256 :  *                 HAL_KEY_SW_1
+zcl_samplesw.c (Projects\zstack\HomeAutomation\SampleSwitch\Source) line 313 :  *                 HAL_KEY_SW_1
+zclSampleSw_HandleKeys in zcl_samplesw.c (Projects\zstack\HomeAutomation\SampleSwitch\Source) :   if ( keys & HAL_KEY_SW_1 )
+zcl_sampleswota.c (Projects\zstack\HomeAutomation\SampleSwitchOta\Source) line 392 :  *                 HAL_KEY_SW_1
+zclSampleSwOta_HandleKeys in zcl_sampleswota.c (Projects\zstack\HomeAutomation\SampleSwitchOta\Source) :   if ( keys & HAL_KEY_SW_1 )
